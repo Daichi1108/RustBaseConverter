@@ -1,10 +1,14 @@
 fn main() {
-    println!("{}", todecimal("A"));
+    println!("{}", convert("11011", 2, 16));
+}
+
+fn convert(inputnum:&str, inputbase:u8, outputbase:u8) -> String {
+    return fromdecimal(todecimal(inputnum, inputbase), outputbase);
 }
 
 fn fromdecimal(inputnum:u128, inputbase:u8) -> String {
     let mut input = u128::from(inputnum);
-    let base = u128::from(inputbase);
+    let base = u128::from(inputbase as u128);
 
     let mut output = String::new();
 
@@ -16,18 +20,20 @@ fn fromdecimal(inputnum:u128, inputbase:u8) -> String {
     return output;
 }
 
-fn todecimal(inputnum:String, inputbase:u8) -> u128 {
+fn todecimal(inputnum:&str, inputbase:u8) -> u128 {
     let input = String::from(inputnum);
-    let base = u128::from(inputbase);
+    let base = u128::from(inputbase as u128);
     
     let mut output = 0;
 
-    let charnum = input.len() - 1;
+    let mut charnum:i32 = input.len() as i32 - 1;
     
-    for i in input {
-        output += to_digit(i) * base.pow(charnum);
-        charnum--;
+    for i in input.chars() {
+        output += to_digit(i) * base.pow(charnum as u32);
+        charnum -= 1;
     }
+
+    return output;
 }
 
 fn to_char(num:u8) -> char {
