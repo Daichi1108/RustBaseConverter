@@ -1,0 +1,47 @@
+body {
+    background-color:#303030;
+    color: #FFF;
+    font-family: monospace;
+}
+
+.inputbox {
+    width: 600px;
+    height: 200px;
+    outline: 5px solid peru;
+    border-width: 0px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    font-size: 180px;
+}
+
+.inputbox:focus {
+    background-color: azure;
+}
+
+.inputbutton {
+    width: 1000px;
+    height: 200px;
+    outline: 5px solid peru;
+    border-width: 0px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    font-size: 180px;
+}
+
+.inputbutton:hover {
+    background-color: azure;
+}
+
+.inputbutton:active {
+    background-color: olive;
+}
+
+.outputfield {
+    width: 1000px;
+    height: 200px;
+    outline: 5px solid peru;
+    border-width: 0px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    font-size: 180px;
+}
