@@ -1,5 +1,8 @@
+use yew::prelude::*;
+use web_sys::HtmlInputElement;
+
 fn main() {
-    println!("{}", convert("11011", 2, 16));
+    yew::start_app::<RootComponent>();
 }
 
 fn convert(inputnum:&str, inputbase:u8, outputbase:u8) -> String {
@@ -50,4 +53,65 @@ fn to_digit(charinput:char) -> u128 {
         return num - 48
     }
     return num - 55
+}
+
+enum Msg {
+    Input(String),
+    Inbase(String),
+    Outbase(String),
+    Enter
+}
+struct RootComponent {
+    thing:String,
+    thing1:String,
+    thing2:String,
+    output:String
+}
+
+impl Component for RootComponent {
+    type Message = Msg;
+    type Properties = ();
+    fn create(_ctx: &Context<Self>) -> Self {
+        Self { //constructor
+            thing:String::new(),
+            thing1:String::new(),
+            thing2:String::new(),
+            output:String::new()
+        }
+    }
+    fn update(&mut self, _ctx: &Context<Self>, msg: Self::Message) -> bool {
+        match msg {
+            Msg::Input(inputstring) => {
+                self.thing = inputstring;
+                true
+            }
+            Msg::Inbase(inputstring) => {
+                self.thing1 = inputstring;
+                true
+            }
+            Msg::Outbase(inputstring) => {
+                self.thing2 = inputstring;
+                true
+            }
+            Msg::Enter => {
+                self.output = convert(&self.thing, self.thing1.parse::<u8>().unwrap_or(2), self.thing2.parse::<u8>().unwrap_or(2));
+                true
+            }
+        }
+    }
+    fn view(&self, _ctx: &Context<Self>) -> Html {
+        let link = _ctx.link();
+        html! {
+            <div>
+                <h1>{"Rust Base Converter"}</h1>
+                <p>{"I hate ian he made me do this"}</p>
+                <input class = "inputbox" type = "text" oninput = {link.callback(|event: InputEvent| {let input: HtmlInputElement = event.target_unchecked_into(); Msg::Input(input.value())})}/>
+                <input class = "inbasebox" type = "text" oninput = {link.callback(|event: InputEvent| {let input: HtmlInputElement = event.target_unchecked_into(); Msg::Inbase(input.value())})}/>
+                <input class = "outbasebox" type = "text" oninput = {link.callback(|event: InputEvent| {let input: HtmlInputElement = event.target_unchecked_into(); Msg::Outbase(input.value())})}/>
+                <br/><br/>
+                <button class = "inputbutton" onclick = {link.callback(|_|Msg::Enter)}>{"Convert"}</button>
+                <div class = "outputfield">{self.output.clone()}</div>
+            </div>
+        }
+    }
 }

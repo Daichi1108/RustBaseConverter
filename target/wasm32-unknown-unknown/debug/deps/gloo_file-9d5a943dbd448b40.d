@@ -1,0 +1,11 @@
+C:\Users\daich\Documents\GitHub\RustBaseConverter\target\wasm32-unknown-unknown\debug\deps\libgloo_file-9d5a943dbd448b40.rmeta: C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\lib.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\blob.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\file_list.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\file_reader.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\object_url.rs
+
+C:\Users\daich\Documents\GitHub\RustBaseConverter\target\wasm32-unknown-unknown\debug\deps\libgloo_file-9d5a943dbd448b40.rlib: C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\lib.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\blob.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\file_list.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\file_reader.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\object_url.rs
+
+C:\Users\daich\Documents\GitHub\RustBaseConverter\target\wasm32-unknown-unknown\debug\deps\gloo_file-9d5a943dbd448b40.d: C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\lib.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\blob.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\file_list.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\file_reader.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\object_url.rs
+
+C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\lib.rs:
+C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\blob.rs:
+C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\file_list.rs:
+C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\file_reader.rs:
+C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-file-0.2.3\src\object_url.rs:

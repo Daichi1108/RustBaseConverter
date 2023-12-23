@@ -1,0 +1,10 @@
+C:\Users\daich\Documents\GitHub\RustBaseConverter\target\wasm32-unknown-unknown\debug\deps\libgloo_storage-c282ffd96ec9edff.rmeta: C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\lib.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\errors.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\local_storage.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\session_storage.rs
+
+C:\Users\daich\Documents\GitHub\RustBaseConverter\target\wasm32-unknown-unknown\debug\deps\libgloo_storage-c282ffd96ec9edff.rlib: C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\lib.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\errors.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\local_storage.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\session_storage.rs
+
+C:\Users\daich\Documents\GitHub\RustBaseConverter\target\wasm32-unknown-unknown\debug\deps\gloo_storage-c282ffd96ec9edff.d: C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\lib.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\errors.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\local_storage.rs C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\session_storage.rs
+
+C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\lib.rs:
+C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\errors.rs:
+C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\local_storage.rs:
+C:\Users\daich\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\session_storage.rs:
